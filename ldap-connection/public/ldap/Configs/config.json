@@ -1,0 +1,11 @@
+﻿{
+  "server1": {
+    "server": "10.131.0.96",
+    "database": "ldap",
+    "username": "",
+    "password": ""
+  },
+
+  "domainName": "gig.holdings",
+  "groupName": "GTK-Users-RODC"
+}

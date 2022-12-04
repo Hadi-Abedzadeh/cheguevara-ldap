@@ -1,0 +1,30 @@
+{
+    "name": "hadiabedzadeh/cheguevaraldap",
+    "description": "User logged in via LDAP",
+	"license": "MIT",
+    "type": "library",
+	"authors": [
+	
+        {
+            "name": "Hadi Abedzadeh"
+        }
+    ],
+	"minimum-stability": "dev",
+		"require": {
+			"php": ">=7.4"
+		},
+		"require-dev": {
+		},
+		"autoload": {
+			"psr-4": {
+				"Hadiabedzadeh\\cheguevaraldap\\": "src/"
+			}
+		},
+		"extra": {
+			"laravel": {
+				"providers": [
+					"Hadiabedzadeh\\cheguevaraldap\\src\\CheGuevaraLdapServiceProvider"
+				]
+			}
+		}
+	}
