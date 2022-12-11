@@ -1,6 +1,6 @@
 <?php
 
-namespace adiabedzadeh\CheGuevaraLdap\app\Http\Controllers\Auth;
+namespace Hadiabedzadeh\CheGuevaraLdap\app\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
